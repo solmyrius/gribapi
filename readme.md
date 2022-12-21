@@ -2,7 +2,7 @@
 
 Toolset lib to extract variables data from the GRIB2 meteo model  
 
-## Installtion
+## Installation
 
 bz2 system lib:
 
@@ -14,7 +14,7 @@ python dependencies
 
 ## Settings
 
-Settings are in system environment
+Settings are in system environment. (You can use .env file for development purposes)
 
 `SOURCE_GRIB2_FILE`= path to the source GRIB2 file
 
