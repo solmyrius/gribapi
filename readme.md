@@ -22,6 +22,16 @@ Settings are in system environment. (You can use .env file for development purpo
 
 `DESTINATION_CSV_FILE`= path to the destination .CSV file where data will be exported
 
+## Usage
+
+To run script use command:
+
+`python main.py SOURCE_GRIB2_FILE SOURCE_CSV_FILE`
+
+If command line arguments for source files are omitted the values from the system ENVs will be used
+
+Default location for result file is `result.csv` but it may be overriden by system ENVs
+
 ## Result structure
 
 Result is .csv files with the variables values in the points, which are the closest to the points given in request.
